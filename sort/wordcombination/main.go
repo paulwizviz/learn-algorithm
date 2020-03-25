@@ -12,12 +12,12 @@ func rearrangeRune(input []rune) []string {
 	copy(inputClone, input)
 
 	indexOfFirstCharater := 0
-	for counter := 0; counter < len(input) - 1; counter++ {
+	for counter := 0; counter < len(input)-1; counter++ {
 
-		if indexOfFirstCharater + 1 < len(input){
+		if indexOfFirstCharater+1 < len(input) {
 			tmp := inputClone[indexOfFirstCharater]
-			inputClone[indexOfFirstCharater] = inputClone[indexOfFirstCharater + 1]
-			inputClone[indexOfFirstCharater + 1] = tmp
+			inputClone[indexOfFirstCharater] = inputClone[indexOfFirstCharater+1]
+			inputClone[indexOfFirstCharater+1] = tmp
 			indexOfFirstCharater++
 		}
 
@@ -29,7 +29,7 @@ func rearrangeRune(input []rune) []string {
 func main() {
 
 	data := "abc"
-	
+
 	wordCombinations := []string{data}
 	wordCombinations = append(wordCombinations, rearrangeRune([]rune(wordCombinations[0]))...)
 	log.Println(wordCombinations)
