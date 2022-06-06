@@ -25,9 +25,9 @@ type keyvalue struct {
 func TestConvertNumeralsToInteger(t *testing.T) {
 
 	testData := []keyvalue{
-		keyvalue{key: "MCMLXXVI", value: 1976},
-		keyvalue{key: "MMXVIII", value: 2018},
-		keyvalue{key: "MCMLXV", value: 1965},
+		{key: "MCMLXXVI", value: 1976},
+		{key: "MMXVIII", value: 2018},
+		{key: "MCMLXV", value: 1965},
 	}
 
 	for _, data := range testData {
