@@ -1,15 +1,41 @@
-# Overview
+# BIFID Cipher
 
-This is an example to demonstrate how to create multi-dimension arrays
+The BIFID cipher uses a grid and was invented by Felix Delastelle in 1901. In its simplest form it creates a grid and maps the letters into numeric values.
 
-## Use case BIFID Cipher
+For illustrations, let's attempt to scramble the plaintext "maryland" using BIFID.
 
-The characters are scrambled this way
+## Encode
 
-| | 1 | 2 | 3 | 4 | 5 |
-| --- | --- | --- | --- | --- | --- |
-| 1 | B | G | W | K | Z |
-| 2 | Q | P | N | D | S |
-| 3 | I | O | A | X | E |
-| 4 | F | C | L | U | M |
-| 5 | T | H | Y | V | R |
+The first letter "m" corresponds to "4" and "5". We place "4" in the first row and "5" in the second row. Continuing with this process we have:
+
+|  |  |  |  |  |  |  |  |
+| -- | -- | -- | -- | -- | -- | -- | -- |
+| m | a | r | y | l | a | n | d |
+| 4 | 3 | 5 | 5 | 5 | 3 | 2 | 2 |
+| 5 | 3 | 5 | 3 | 3 | 3 | 3 | 4 |
+
+Next we read along the rows and merge, to give:
+
+43 55 43 22 53 53 33 34
+
+And we convert them back to the letters from the grid, we get:
+
+L R L P Y Y A X
+
+## Decode
+
+Let's try to revise this cipher DXETE, and we get:
+
+24 34 35 51 35
+
+We can then arrange these into:
+
+|  |  |  |  |  |
+| -- | -- | -- | -- | -- |
+| 2 | 4 | 3 | 4 | 3 |
+| 5 | 5 | 1 | 3 | 5 |
+
+
+## Reference
+
+Cryptogrpahy. William J. Buchanan, OBE. Edinburgh Napier University, UK.
