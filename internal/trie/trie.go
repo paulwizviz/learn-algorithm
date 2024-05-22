@@ -95,7 +95,7 @@ func DeleteWord(trie Node, word string) error {
 	if !isEnd {
 		err = newError(fmt.Sprintf("Trie search error. Unable to delete word: %v", word))
 	} else {
-		for k, _ := range todelete {
+		for k := range todelete {
 			delete(todelete, k)
 		}
 		err = nil

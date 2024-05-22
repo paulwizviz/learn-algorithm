@@ -42,7 +42,7 @@ func (d *defaultNode) NextNode(ch rune) (node Node) {
 func (d *defaultNode) Runes() []rune {
 	var runes []rune
 
-	for r, _ := range d.edges {
+	for r := range d.edges {
 		runes = append(runes, r)
 	}
 
