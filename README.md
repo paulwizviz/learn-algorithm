@@ -5,7 +5,6 @@ This project presents my working examples of Go based algorithms and data struct
 ## Topics
 
 * [Linear Data Structure](./docs/linear.md)
-* [Non-Linear Data Structures](./docs/nonlinear.md)
 
 ## References
 

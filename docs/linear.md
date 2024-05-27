@@ -1,8 +1,10 @@
 # Linear Data Structure
 
-In this structure, each element (node) in a linked list is connected sequentially to the next element, forming a straight line-like sequence.
+A linear data structure is one where its elements (nodes) are organised in a sequence.
 
-## Linked List
+* [Linked Lists](#linked-lists)
+
+## Linked Lists
 
 Types of linked list:
 
