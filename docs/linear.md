@@ -1,3 +1,13 @@
-# Data Structure
+# Linear Data Structure
 
-In this structure, a node is connected to one node before and after.
+In this structure, each element (node) in a linked list is connected sequentially to the next element, forming a straight line-like sequence.
+
+## Linked List
+
+Types of linked list:
+
+* Singly Linked List.
+* Double Linked List.
+* Circular Linked List.
+
+Here are [working examples](../internal/linkedlist/) demonstrating techniques implementing linked lists.
