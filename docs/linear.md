@@ -10,4 +10,4 @@ Types of linked list:
 * Double Linked List.
 * Circular Linked List.
 
-Here are [working examples](../internal/linkedlist/) demonstrating techniques implementing linked lists.
+Here are [working examples](../internal/linkedlist/) demonstrating techniques implementing linked lists. In the working example, you'll see different ways of implementing the data structure.
