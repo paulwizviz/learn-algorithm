@@ -4,7 +4,9 @@ This project presents my working examples of Go based algorithms and data struct
 
 ## Topics
 
-* [Linear Data Structure](./docs/linear.md)
+* Algorithm
+* Data structures
+    * [Linear Data Structure](./docs/linear.md)
 * [Summary Examples](./docs/summary.md)
 
 ## References
