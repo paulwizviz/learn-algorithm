@@ -1,3 +1,5 @@
+// A simple cli based replica of the the classic Battleship board game
+
 package main
 
 import (

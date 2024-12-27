@@ -1,3 +1,5 @@
+// A classic FizzBuzz algorithm to demonstrate TDD techniques
+
 package main
 
 import (

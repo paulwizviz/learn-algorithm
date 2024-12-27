@@ -1,3 +1,5 @@
+// A simple routine to form words from rearranging seed characters
+
 package main
 
 import (

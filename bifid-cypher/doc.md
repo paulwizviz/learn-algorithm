@@ -35,6 +35,9 @@ We can then arrange these into:
 | 2 | 4 | 3 | 4 | 3 |
 | 5 | 5 | 1 | 3 | 5 |
 
+## Working examples
+
+* [main.go](./main.go)
 
 ## Reference
 
