@@ -1,23 +1,25 @@
 # Overview
 
-This project presents my working examples of Go based algorithms and data structure.
+This project contains references to working examples and references to educational materials about algorithm and data structures.
+
+The key differences between algorithm and data structure are as follows:
+
+| Feature | Data Structure Design | Algorithm Design |
+|---|---|---|
+| Primary Goal | Organize and store data | Solve a problem or perform a task |
+| Focus | Representation and storage of data | Step-by-step procedure |
+| Key Concerns | Efficiency of access and manipulation | Logic, efficiency, and correctness |
 
 ## Topics
 
-* [Battleship](./battleship/main.go) - A simple cli replica of the classic Battleship board game.
-* [Bifid-Cypher](./bifid-cypher/doc.md)
-* [Binary Tree](./bintree/bintree_test.go) - A simple implementation of Binary Tree using Go Generics
-* [Fizz Buzz](./fizzbuzz/main.go) - A classic algorithm to demonstrate TDD principles
-* [Graphs](./graphs/main.go) - A simple graph data structure
-* [Palindrome](./palindrome/main.go) - A simple implementation an algorithm to check words for palindrome.
-* [Recursion](./recursion/main.go) - A simple implementation of a recurson algorithm
-* [Sort](./sort/doc.md)
-* [Table](./table/matrix_test.go) - A simple implementation of a Table
-* [Trie](./trie/trie_test.go) - A simple implementation of a Trie data model
-* [Word Game](./wordgame/main_test.go) - A simple algorithm to form combination of words -- expansion of sort example
+* [Big O](./bigo/bigo.md)
+
+## Working Examples
+
+* [Go algorithms](https://github.com/paulwizviz/go-algorithm)
 
 ## Disclaimer
 
-This project is intended for educational purposes only. The artefacts in this project is updated without prior notification.
+This project is for educational purposes only. It is not a production-ready solution and requires significant modifications, rigorous security audits, and extensive testing before use in any production environment.
 
-Unless otherwise stated, any opinion expressed in this project belongs to the contributor(s).
+This project is ongoing and may undergo changes without prior notification. By using this project, you acknowledge that you do so at your own risk. The authors of this project accept no liability for any issues or damages resulting from its use. Please use this project as a learning resource and not as a fully functional or secure application.
