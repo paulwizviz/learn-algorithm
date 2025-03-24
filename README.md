@@ -18,6 +18,10 @@ The key differences between algorithm and data structure are as follows:
 
 * [Go algorithms](https://github.com/paulwizviz/go-algorithm)
 
+## References
+
+* [Algorithms and Data Structures Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=8hly31xKli0)
+
 ## Disclaimer
 
 This project is for educational purposes only. It is not a production-ready solution and requires significant modifications, rigorous security audits, and extensive testing before use in any production environment.
